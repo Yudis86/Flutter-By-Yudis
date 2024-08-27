@@ -1,5 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/date_widget.dart';
+import 'package:flutter_application_1/image_widget.dart';
+import 'package:flutter_application_1/input_selection.dart';
 import 'dialog.dart';
 
 class ScafflodWidget extends StatelessWidget {
@@ -29,7 +32,9 @@ class ScafflodWidget extends StatelessWidget {
               ),
             ),
           ),
-          DialogWidget()
+          InputSelection(),
+          DialogWidget(),
+          DateWidget(title: "kalender")
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(

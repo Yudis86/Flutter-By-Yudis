@@ -11,9 +11,6 @@ class ImageWidget2 extends StatelessWidget {
         Image(
           image: AssetImage('assets/unnamed.jpg'),
         ),
-        Image(
-          image: AssetImage('assets/LOGO-TELKOM-SCHOOL-web.jpg'),
-        )
       ],
     );
   }
