@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Ios_widget.dart';
 import 'package:flutter_application_1/Scafflod_widget.dart';
 import 'package:flutter_application_1/berita_bola_project.dart';
+import 'package:flutter_application_1/date_widget.dart';
 import 'package:flutter_application_1/dialog.dart';
 import 'package:flutter_application_1/image_widget.dart';
 import 'package:flutter_application_1/image_widget2.dart';
@@ -23,6 +24,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: BeritaBolaProject());
+        home: RowColumn());
   }
 }
