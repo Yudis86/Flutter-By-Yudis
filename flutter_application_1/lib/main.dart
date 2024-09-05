@@ -6,6 +6,8 @@ import 'package:flutter_application_1/date_widget.dart';
 import 'package:flutter_application_1/dialog.dart';
 import 'package:flutter_application_1/image_widget.dart';
 import 'package:flutter_application_1/image_widget2.dart';
+import 'package:flutter_application_1/ovo.dart';
+import 'package:flutter_application_1/project.dart';
 import 'package:flutter_application_1/row_column.dart';
 import 'package:flutter_application_1/stack_position.dart';
 
@@ -24,6 +26,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: RowColumn());
+        home: Project());
   }
 }
