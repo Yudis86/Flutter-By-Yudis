@@ -55,14 +55,6 @@ class _HomeScreenState extends State<HomeScreen> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.local_offer),
-            label: 'Deals',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.account_balance_wallet),
-            label: 'Finance',
-          ),
-          BottomNavigationBarItem(
             icon: Icon(Icons.person),
             label: 'Profile',
           ),
@@ -134,8 +126,10 @@ class HomePage extends StatelessWidget {
           Container(
             margin: EdgeInsets.all(16),
             height: 150,
-            color: Colors.grey[300],
-            child: Center(child: Text('Promo Banner')),
+            child: Image.network(
+              'assets/money_bg.png',
+              fit: BoxFit.cover,
+            ),
           ),
 
           // List item promo
